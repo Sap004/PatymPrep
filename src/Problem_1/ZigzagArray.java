@@ -8,19 +8,19 @@ public class ZigzagArray {
         for(int i=0;i<n-1;i++){
             if(flag){
                 if(a[i]>a[i+1]) {
-                    swap(a, i, i + 1);
+                    swap(a, i);
                 }
             }
             else{
                 if(a[i]<a[i+1]) {
-                    swap(a, i, i + 1);
+                    swap(a, i);
                 }
             }
             flag=!flag;
         }
     }
 
-    public void swap(int []a, int i, int j){
+    public void swap(int []a, int i){
         int temp=a[i+1];
         a[i+1]=a[i];
         a[i]=temp;
