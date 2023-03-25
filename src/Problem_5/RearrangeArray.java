@@ -29,7 +29,7 @@ public class RearrangeArray {
             arr[c++] = positive.get(i++);
         }
         while (j < negetive.size()) {
-            arr[c++] = negetive.get(i++);
+            arr[c++] = negetive.get(j++);
         }
     }
 }
