@@ -1,4 +1,4 @@
-# PatymPrep
+# ProductCompaniesPrep
 All the questions I solved before paytm assessment
 
 Below is the link to the problems I solved:
